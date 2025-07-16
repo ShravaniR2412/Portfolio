@@ -96,7 +96,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             {/* Resume Button */}
             <a
-              href="/your-resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               // --- THIS IS THE ONLY CHANGE ---
@@ -139,7 +139,7 @@ const Header = () => {
 
               {/* Mobile Resume Button */}
               <a
-                href="/your-resume.pdf"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full px-4 py-3 mt-4 bg-violet-600 text-white rounded-lg hover:bg-violet-700 transition-colors text-base font-medium"

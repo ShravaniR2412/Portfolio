@@ -6,19 +6,19 @@ import { Github, Linkedin, Twitter, Mail, ArrowUpRight } from 'lucide-react';
 const socialLinks = [
   {
     icon: <Github size={20} />,
-    href: 'https://github.com/your-username',
+    href: 'https://github.com/ShravaniR2412',
     label: 'GitHub',
   },
   {
     icon: <Linkedin size={20} />,
-    href: 'https://linkedin.com/in/your-profile',
+    href: 'https://www.linkedin.com/in/shravanirasam02',
     label: 'LinkedIn',
   },
-  {
-    icon: <Twitter size={20} />,
-    href: 'https://twitter.com/your-username',
-    label: 'Twitter',
-  },
+  // {
+  //   icon: <Twitter size={20} />,
+  //   href: 'https://twitter.com/your-username',
+  //   label: 'Twitter',
+  // },
 ];
 
 const quickLinks = [
@@ -85,7 +85,7 @@ export default function Footer() {
                 href="mailto:your-email@example.com"
                 className="group inline-flex items-center text-violet-600 font-medium hover:text-violet-800 transition-colors duration-300"
               >
-                <span>your-email@example.com</span>
+                <span>shravanirasam0212@gmail.com</span>
                 <ArrowUpRight size={18} className="ml-1.5 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
               </a>
           </div>

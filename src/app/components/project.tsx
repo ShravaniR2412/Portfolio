@@ -7,45 +7,37 @@ import { Github, ExternalLink, ArrowLeft, ArrowRight } from 'lucide-react';
 // I've added more projects to better demonstrate the scrolling.
 const projectsData = [
   {
-    title: 'E-commerce Platform',
-    description: 'A full-featured online store built with a modern MERN stack, payment gateway integration, and an admin dashboard.',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
+    title: 'Sahkaar Setu',
+    description: 'SIH winning project designed to revolutionize urban governance by enabling centralized data sharing and AI-powered task management. It enhances interdepartmental coordination for better e planning, resource utilization, and project execution.',
+    tags: ['React', 'Tailwind CSS', 'Django', 'Firebase', 'Llama' , ' Leaflet.js', 'Framer Motion'],
     imageUrl: 'https://via.placeholder.com/1280x720/6d28d9/ffffff?text=Project+1', // Using placeholders
-    liveUrl: '#',
+    liveUrl: 'https://www.youtube.com/watch?v=vcizS6j9tvI',
     repoUrl: '#',
   },
   {
-    title: 'AI Article Summarizer',
-    description: 'A web application that leverages a machine learning model to summarize long articles into concise paragraphs.',
-    tags: ['Next.js', 'Python', 'TensorFlow', 'Tailwind CSS'],
+    title: 'Research Mate',
+    description: 'An AI-driven research assistant that streamlines academic research with instant AI chatbot support, mentor connections, and real-time collaboration tools. It provides IEEE paper formatting, plagiarism checks, and smart writing suggestions.',
+    tags: ['React', 'Firebase', 'FastAPI', ' LLaMA', 'BERT', 'WebSockets' ,'GitHub/Kaggle APIs', 'Tailwind CSS'],
     imageUrl: 'https://via.placeholder.com/1280x720/10b981/ffffff?text=Project+2',
-    liveUrl: '#',
-    repoUrl: '#',
+    liveUrl: 'https://drive.google.com/file/d/1tlcMT77VzQ6V_z5txPDGXEOCCqVosd3-/view?usp=sharing',
+    repoUrl: 'https://github.com/ShravaniR2412/Reserach-Mate',
   },
   {
-    title: 'Task Management App',
-    description: 'A responsive task manager with drag-and-drop functionality, user authentication, and real-time database updates.',
-    tags: ['TypeScript', 'React', 'Firebase', 'Prisma'],
+    title: 'Money Mitra',
+    description: 'MoneyMitra – an award wining multilingual financial companion offering AI-powered insights, real-time portfolio tracking, and secure data management. Empowers users with investment education and easy advisor onboarding for smarter financial decisions.',
+    tags: ['React', 'Firebase', 'ShadCN UI', 'Flask','Tailwind CSS' ,'Vite'],
+    imageUrl: 'https://via.placeholder.com/1280x720/10b981/ffffff?text=Project+2',
+    liveUrl: 'https://linktr.ee/codinggurus',
+    repoUrl: 'https://github.com/ShravaniR2412/CodeCrafters',
+  },
+  {
+    title: 'Waste Wise Web',
+    description: 'A web-based waste management platform that helps users find proper waste disposal methods, report dump sites, and access sustainability guides. Features include geo-tagged bin locations, waste statistics, and cleaning campaign requests.',
+    tags: ['React', 'Firebase', 'Tailwind CSS' , 'Cloudinary', 'Google Maps API' , 'Chart.js'],
     imageUrl: 'https://via.placeholder.com/1280x720/3b82f6/ffffff?text=Project+3',
-    liveUrl: '#',
-    repoUrl: '#',
-  },
-  {
-    title: 'Portfolio Website',
-    description: 'The very website you are on! Built with Next.js and Tailwind CSS, designed to be modern, fast, and fully responsive.',
-    tags: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
-    imageUrl: 'https://via.placeholder.com/1280x720/ef4444/ffffff?text=Project+4',
-    liveUrl: '#',
-    repoUrl: '#',
-  },
-  {
-    title: 'Weather Dashboard',
-    description: 'A clean weather application that provides real-time weather data for any city using the OpenWeatherMap API.',
-    tags: ['JavaScript', 'HTML', 'CSS', 'API'],
-    imageUrl: 'https://via.placeholder.com/1280x720/f97316/ffffff?text=Project+5',
-    liveUrl: '#',
-    repoUrl: '#',
-  },
+    liveUrl: 'https://youtu.be/0fSSNBTcxBE?si=P3d_W3n4Fm_7j0bs',
+    repoUrl: 'https://github.com/ShravaniR2412/rotacodefest',
+  }
 ];
 
 // Your original Tag component - unchanged
@@ -123,7 +115,7 @@ export default function Projects() {
                     <h3 className="text-xl font-bold text-slate-800 mb-2">
                       {project.title}
                     </h3>
-                    <p className="text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
+                    <p className="text-justify text-slate-600 text-sm leading-relaxed mb-4 flex-grow">
                       {project.description}
                     </p>
                     <div className="flex flex-wrap gap-2 mb-6">

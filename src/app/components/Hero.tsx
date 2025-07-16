@@ -11,7 +11,7 @@ export default function Hero() {
                 {/* Left Column: Text Content */}
                 <div className="text-center lg:text-left">
                     <p className="text-lg font-medium text-violet-400 mb-2">
-                        Hello, I'm
+                        Hello&apos;I'm
                     </p>
                     <h1 className="text-4xl lg:text-5xl font-extrabold text-slate-100 mb-4 tracking-tight">
                         Shravani Rasam
@@ -60,7 +60,7 @@ export default function Hero() {
                             <Briefcase size={18} className="transition-transform duration-300 group-hover:rotate-[-5deg]" />
                         </a>
                         <a
-                            href="/your-resume.pdf"
+                            href="/resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group bg-slate-800/50 border border-slate-700 text-slate-300 px-6 py-3 rounded-full hover:bg-slate-800 hover:text-white transition-colors duration-300 flex items-center justify-center gap-2"

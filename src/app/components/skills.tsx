@@ -1,38 +1,62 @@
 'use client';
 
 import React, { useState } from 'react';
+
 import {
-  SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiTailwindcss,
-  SiNodedotjs, SiExpress, SiMongodb, SiPostgresql, SiPrisma,
-  SiGit, SiFigma, SiVercel, SiPython, SiTensorflow, SiPandas, SiScikitlearn, SiJupyter
+  SiJavascript,
+  SiC,
+  SiCplusplus,
+  SiOpenjdk,
+  SiPython,
+  SiMysql,
+  SiFirebase,
+  SiMongodb,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiFlask,
+  SiNodedotjs,
+  SiGit,
+  SiFigma,
+  SiVercel,
+  SiTensorflow,
+  SiScikitlearn,
+  SiPandas,
+  SiJupyter,
 } from 'react-icons/si';
 
 const techCategories = [
   {
-    name: 'Frontend',
+    name: 'Programming',
     tools: [
       { name: 'JavaScript', icon: <SiJavascript size={32} className="text-yellow-400" /> },
-      { name: 'TypeScript', icon: <SiTypescript size={32} className="text-blue-400" /> },
-      { name: 'React', icon: <SiReact size={32} className="text-cyan-400" /> },
-      { name: 'Next.js', icon: <SiNextdotjs size={32} className="text-slate-300" /> },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss size={32} className="text-teal-400" /> },
-      { name: 'CSS', icon: <SiTailwindcss size={32} className="text-teal-400" /> },
+      { name: 'C', icon: <SiC size={32} className="text-blue-400" /> },
+      { name: 'C++', icon: <SiCplusplus size={32} className="text-blue-500" /> },
+      { name: 'Java', icon: <SiOpenjdk size={32} className="text-red-500" /> },
+      { name: 'Python', icon: <SiPython size={32} className="text-blue-400" /> },
     ],
   },
   {
-    name: 'Backend',
+    name: 'Databases',
     tools: [
-      { name: 'Node.js', icon: <SiNodedotjs size={32} className="text-green-400" /> },
-      { name: 'Express', icon: <SiExpress size={32} className="text-slate-300" /> },
-      { name: 'PostgreSQL', icon: <SiPostgresql size={32} className="text-sky-400" /> },
+      { name: 'MySQL', icon: <SiMysql size={32} className="text-blue-600" /> },
+      { name: 'Firebase', icon: <SiFirebase size={32} className="text-yellow-400" /> },
       { name: 'MongoDB', icon: <SiMongodb size={32} className="text-green-500" /> },
-      { name: 'Prisma', icon: <SiPrisma size={32} className="text-slate-300" /> },
+    ],
+  },
+  {
+    name: 'Frameworks',
+    tools: [
+      { name: 'React', icon: <SiReact size={32} className="text-cyan-400" /> },
+      { name: 'Next.js', icon: <SiNextdotjs size={32} className="text-slate-300" /> },
+      { name: 'Tailwind CSS', icon: <SiTailwindcss size={32} className="text-teal-400" /> },
+      { name: 'Flask', icon: <SiFlask size={32} className="text-gray-600" /> },
+      { name: 'Node.js', icon: <SiNodedotjs size={32} className="text-green-400" /> },
     ],
   },
   {
     name: 'Machine Learning',
     tools: [
-      { name: 'Python', icon: <SiPython size={32} className="text-yellow-400" /> },
       { name: 'TensorFlow', icon: <SiTensorflow size={32} className="text-orange-500" /> },
       { name: 'Scikit-learn', icon: <SiScikitlearn size={32} className="text-orange-400" /> },
       { name: 'Pandas', icon: <SiPandas size={32} className="text-indigo-400" /> },
