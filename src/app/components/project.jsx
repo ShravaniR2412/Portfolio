@@ -41,22 +41,21 @@ const projectsData = [
 ];
 
 // Your original Tag component - unchanged
-const Tag = ({ text }: { text: string }) => (
+const Tag = ({ text }) => (
   <span className="bg-violet-100 text-violet-700 text-xs font-medium px-2.5 py-1 rounded-full">
     {text}
   </span>
 );
 
 export default function Projects() {
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
+ const scrollContainerRef = useRef(null);
 
-  const handleScroll = (direction: 'left' | 'right') => {
+  // ✅ Fixed: Added direction param
+  const handleScroll = (direction) => {
     if (scrollContainerRef.current) {
       const container = scrollContainerRef.current;
-      // Get the width of a single card. They all have the same width.
       const cardWidth = container.children[0]?.clientWidth || 0;
-      // Get the gap from the container's class (e.g., gap-8 = 2rem = 32px)
-      const gap = 32; 
+      const gap = 32;
       const scrollAmount = cardWidth + gap;
 
       container.scrollBy({
