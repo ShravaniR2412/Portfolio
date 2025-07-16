@@ -11,7 +11,7 @@ export default function Hero() {
                 {/* Left Column: Text Content */}
                 <div className="text-center lg:text-left">
                     <p className="text-lg font-medium text-violet-400 mb-2">
-                        Hello&apos;I'm
+                        Hello I&apos;m
                     </p>
                     <h1 className="text-4xl lg:text-5xl font-extrabold text-slate-100 mb-4 tracking-tight">
                         Shravani Rasam
