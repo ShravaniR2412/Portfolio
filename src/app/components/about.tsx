@@ -1,4 +1,9 @@
-import { BrainCircuit, Check, LayoutTemplate, Target } from 'lucide-react';
+import {
+  BrainCircuit, Check, LayoutTemplate, Linkedin,
+  Github,
+  Mail,
+  Globe, Target
+} from 'lucide-react';
 
 export default function About() {
   return (
@@ -12,67 +17,90 @@ export default function About() {
           <p className="mt-3 text-lg text-slate-600">A little bit about my journey and my mission.</p>
           <div className="w-24 h-1 bg-violet-600 mx-auto mt-4 rounded-full"></div>
         </div>
-        
+
         {/* Main Grid Layout */}
-        <div className="grid lg:grid-cols-3 gap-8 items-start">
-          
+        <div className="grid lg:grid-cols-2 gap-8 items-start">
+
           {/* Left Column: Main Bio & Values */}
-          <div className="lg:col-span-2 bg-white p-8 rounded-2xl border border-slate-200 shadow-md space-y-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div className="py-14 lg:col-span-1 bg-white p-8 rounded-2xl border border-slate-200 shadow-md space-y-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <div>
               <h3 className="text-2xl font-semibold text-slate-800 mb-4">Who I Am</h3>
-              <p className="text-slate-600 leading-relaxed">
-                I'm a web developer with a passion for creating clean, responsive interfaces and exploring the vast possibilities of machine learning. I enjoy blending thoughtful design with powerful data to build applications that are both functional and delightful to use.
+              <p className="m-1 text-slate-600 leading-relaxed text-justify">
+                I’m a passionate and results-driven <span className="font-semibold">Full Stack Developer</span> and <span className="font-semibold">Machine Learning enthusiast</span>, currently pursuing <span className="font-semibold">B.Tech in Information Technology at VESIT (INFT ’26)</span>. With a strong foundation in software development and a problem-solving mindset, I’ve earned recognition as a <span className="font-semibold">4x Hackathon Winner</span>, including the prestigious <span className="font-semibold">Smart India Hackathon (SIH) 2024</span>. I enjoy crafting <span className="font-semibold">intuitive web experiences</span>, exploring the potential of <span className="font-semibold">AI/ML</span>, and developing solutions that bridge innovation with impact.
               </p>
+
             </div>
-            <div>
-              <h3 className="text-xl font-semibold text-slate-800 mb-5">My Approach</h3>
-              <ul className="space-y-4 text-slate-600">
-                {[
-                  "A problem-solving and analytical mindset",
-                  "A commitment to being a continuous learner",
-                  "A highly collaborative and communicative team player",
-                ].map((item, idx) => (
-                  <li key={idx} className="flex items-center gap-3">
-                    <span className="bg-violet-100 p-1.5 rounded-full">
-                      <Check className="w-4 h-4 text-violet-700" />
-                    </span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+
           </div>
 
           {/* Right Column: Bento Box Cards */}
           <div className="space-y-8">
-            
+
             {/* Mission Card */}
             <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
               <div className="flex items-start gap-4">
-                <div className="bg-violet-100 p-3 rounded-full mt-1">
-                  <Target className="w-6 h-6 text-violet-700" />
-                </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-slate-800">My Mission</h3>
-                  <p className="text-slate-500 text-sm leading-relaxed mt-2">
-                    To craft modern web apps that solve real-world problems by merging great UI with machine learning.
-                  </p>
+                  <h3 className="text-xl font-semibold text-slate-800 mb-5">Quick Highlights</h3>
+                  <ul className="space-y-4 text-slate-600">
+                    {[
+                      "🎓 B.E. IT at VESIT | CGPA: 9.62 (till Sem 6)",
+                      "🏆 SIH 2024 Winner | KakushIN 9.0 – 2nd Runners-Up",
+                      "🗣️ Strong public speaking & team collaboration skills",
+                    ].map((item, idx) => (
+                      <li key={idx} className="flex items-center gap-3">
+                        <span className="bg-violet-100 p-1.5 rounded-full">
+                          <Check className="w-4 h-4 text-violet-700" />
+                        </span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>
 
             {/* Passions Card */}
-            <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-              <h3 className="text-lg font-semibold text-slate-800 mb-4">Core Passions</h3>
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <LayoutTemplate className="w-5 h-5 text-violet-600 flex-shrink-0" />
-                  <span className="text-slate-600 text-sm">Elegant & Responsive Interfaces</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <BrainCircuit className="w-5 h-5 text-violet-600 flex-shrink-0" />
-                  <span className="text-slate-600 text-sm">Exploring Machine Learning</span>
-                </div>
+            <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+              <h3 className="text-lg font-semibold text-slate-800 mb-2">Connect with me!</h3>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a
+                  href="https://www.linkedin.com/in/shravanirasam02"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 hover:bg-violet-50 p-2 rounded-md transition"
+                >
+                  <Linkedin className="w-5 h-5 text-violet-600 flex-shrink-0" />
+                  <span className="text-slate-600 text-sm">Shravani Rasam</span>
+                </a>
+
+                <a
+                  href="https://github.com/ShravaniR2412"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 hover:bg-violet-50 p-2 rounded-md transition"
+                >
+                  <Github className="w-5 h-5 text-violet-600 flex-shrink-0" />
+                  <span className="text-slate-600 text-sm">ShravaniR2412</span>
+                </a>
+
+                <a
+                  href="mailto:shravanirasam0212@gmail.com"
+                  className="flex items-center gap-3 hover:bg-violet-50 p-2 rounded-md transition"
+                >
+                  <Mail className="w-5 h-5 text-violet-600 flex-shrink-0" />
+                  <span className="text-slate-600 text-sm">shravanirasam0212@gmail.com</span>
+                </a>
+
+                <a
+                  href="https://yourportfolio.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 hover:bg-violet-50 p-2 rounded-md transition"
+                >
+                  <Globe className="w-5 h-5 text-violet-600 flex-shrink-0" />
+                  <span className="text-slate-600 text-sm">Portfolio</span>
+                </a>
               </div>
             </div>
 

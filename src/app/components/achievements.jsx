@@ -6,27 +6,35 @@ import Image from 'next/image';
 const hackathonWins = [
     {
         imageUrl: '/images/hackathons/postman-hackathon.jpg',
-        title: 'Postman API Hackathon - 1st Place',
-        organizer: 'Postman & Major League Hacking',
-        date: 'October 2024',
-        description: 'Led a team to build an innovative wellness app that leveraged a complex suite of APIs, securing the top prize among 500+ teams.',
-        linkedinUrl: '#'
+        title: 'Smart India Hackathon (SIH) 2024 - WINNER',
+        organizer: 'Issued by IIT Gandhinagar',
+        date: 'December 2024',
+        description: 'Won the prestigious National level Smart India Hackathon Software Edition, competing against 300+ teams at IIT Gandhinagar.',
+        linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_smartindiahackathon-innovation-ministryofhousingandurbanaffairs-activity-7273977337908518912-u-_a?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'
     },
     {
-        imageUrl: '/images/hackathons/ai-for-good.jpg',
-        title: 'AI for Good Challenge - Social Impact Award',
-        organizer: 'Google Developer Groups',
-        date: 'July 2024',
-        description: 'Developed an ML model to predict and report local water shortages, recognized for its significant potential for social impact.',
+        imageUrl: '/kakushin.jpg',
+        title: 'KakushIN 9.0 - 2nd RunnersUp',
+        organizer: 'Issued by Nomura India',
+        date: 'July 2025',
+        description: 'Built a GenAI powered solution for real-world challenges with strong development skills and user-focused design. Delivered a scalable prototype through collaboration under tight deadlines.',
         linkedinUrl: '#'
     },
     {
         imageUrl: '/images/hackathons/devfest-winner.jpg',
-        title: 'DevFest 2023 - Best Web App',
-        organizer: 'GDG Cloud City',
-        date: 'November 2023',
-        description: 'Created a real-time collaborative whiteboard application using Next.js and WebSockets, awarded "Best Web App".',
-        linkedinUrl: '#'
+        title: 'CodeCrafters 2.0 Hackathon - 1st RunnersUp',
+        organizer: 'Issued by Saraswati College of Engineering',
+        date: 'March 2025',
+        description: 'Secured 2nd place at CodeCrafters 2.0 Hackathon for building MoneyMitra, a multilingual AI-powered financial companion. Ranked 1st in the Web Development track.',
+        linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_hackathon-codinggurus-codecrafters2-activity-7307700505764327424-aNiU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'
+    },
+    {
+        imageUrl: '/images/hackathons/devfest-winner.jpg',
+        title: 'Rotacodefest Hackathon 2024 - 2nd RunersUp',
+        organizer: 'Issued by Rotary Club Of Ghatkopar West',
+        date: 'March 2024',
+        description: 'Built WasteWiseWeb, a web-based solution for efficient waste management, driving impactful digital transformation.',
+        linkedinUrl: 'https://www.linkedin.com/posts/darshankhapekar_rotacodefest-hackathonwinners-teamwork-ugcPost-7175136366341570562-dp_X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'
     }
 ];
 
