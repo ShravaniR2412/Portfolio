@@ -10,7 +10,7 @@ const projectsData = [
     title: 'Sahkaar Setu',
     description: 'SIH winning project designed to revolutionize urban governance by enabling centralized data sharing and AI-powered task management. It enhances interdepartmental coordination for better e planning, resource utilization, and project execution.',
     tags: ['React', 'Tailwind CSS', 'Django', 'Firebase', 'Llama' , ' Leaflet.js', 'Framer Motion'],
-    imageUrl: 'https://via.placeholder.com/1280x720/6d28d9/ffffff?text=Project+1', // Using placeholders
+    imageUrl: '/Projects/Sahkaar-setu.png', // Using placeholders
     liveUrl: 'https://www.youtube.com/watch?v=vcizS6j9tvI',
     repoUrl: '#',
   },
@@ -18,7 +18,7 @@ const projectsData = [
     title: 'Research Mate',
     description: 'An AI-driven research assistant that streamlines academic research with instant AI chatbot support, mentor connections, and real-time collaboration tools. It provides IEEE paper formatting, plagiarism checks, and smart writing suggestions.',
     tags: ['React', 'Firebase', 'FastAPI', ' LLaMA', 'BERT', 'WebSockets' ,'GitHub/Kaggle APIs', 'Tailwind CSS'],
-    imageUrl: 'https://via.placeholder.com/1280x720/10b981/ffffff?text=Project+2',
+    imageUrl: '/Projects/Research-mate.png',
     liveUrl: 'https://drive.google.com/file/d/1tlcMT77VzQ6V_z5txPDGXEOCCqVosd3-/view?usp=sharing',
     repoUrl: 'https://github.com/ShravaniR2412/Reserach-Mate',
   },
@@ -26,7 +26,7 @@ const projectsData = [
     title: 'Money Mitra',
     description: 'MoneyMitra – an award wining multilingual financial companion offering AI-powered insights, real-time portfolio tracking, and secure data management. Empowers users with investment education and easy advisor onboarding for smarter financial decisions.',
     tags: ['React', 'Firebase', 'ShadCN UI', 'Flask','Tailwind CSS' ,'Vite'],
-    imageUrl: 'https://via.placeholder.com/1280x720/10b981/ffffff?text=Project+2',
+    imageUrl: '/Projects/MoneyMitra.png',
     liveUrl: 'https://linktr.ee/codinggurus',
     repoUrl: 'https://github.com/ShravaniR2412/CodeCrafters',
   },
@@ -34,7 +34,7 @@ const projectsData = [
     title: 'Waste Wise Web',
     description: 'A web-based waste management platform that helps users find proper waste disposal methods, report dump sites, and access sustainability guides. Features include geo-tagged bin locations, waste statistics, and cleaning campaign requests.',
     tags: ['React', 'Firebase', 'Tailwind CSS' , 'Cloudinary', 'Google Maps API' , 'Chart.js'],
-    imageUrl: 'https://via.placeholder.com/1280x720/3b82f6/ffffff?text=Project+3',
+    imageUrl: '/Projects/W3.png',
     liveUrl: 'https://youtu.be/0fSSNBTcxBE?si=P3d_W3n4Fm_7j0bs',
     repoUrl: 'https://github.com/ShravaniR2412/rotacodefest',
   }

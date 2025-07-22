@@ -82,7 +82,7 @@ export default function Footer() {
           <div className="md:col-span-4 lg:col-span-3">
              <h3 className="text-slate-800 font-semibold mb-4">Get in Touch</h3>
              <a 
-                href="mailto:your-email@example.com"
+                href="mailto:shravanirasam0212@gmail.com"
                 className="group inline-flex items-center text-violet-600 font-medium hover:text-violet-800 transition-colors duration-300"
               >
                 <span>shravanirasam0212@gmail.com</span>
@@ -93,7 +93,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-slate-200 mt-12 pt-8 text-center text-sm text-slate-500">
+        <div className="border-t border-slate-200 mt-5 pt-8 text-center text-sm text-slate-500">
           <p>© {new Date().getFullYear()} Shravani. All Rights Reserved.</p>
         </div>
       </div>

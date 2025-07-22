@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const hackathonWins = [
     {
-        imageUrl: '/images/hackathons/postman-hackathon.jpg',
+        imageUrl: '/awards/SIH.jpeg',
         title: 'Smart India Hackathon (SIH) 2024 - WINNER',
         organizer: 'Issued by IIT Gandhinagar',
         date: 'December 2024',
@@ -13,15 +13,15 @@ const hackathonWins = [
         linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_smartindiahackathon-innovation-ministryofhousingandurbanaffairs-activity-7273977337908518912-u-_a?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'
     },
     {
-        imageUrl: '/kakushin.jpg',
+        imageUrl: '/awards/Kakushin.jpeg',
         title: 'KakushIN 9.0 - 2nd RunnersUp',
         organizer: 'Issued by Nomura India',
         date: 'July 2025',
         description: 'Built a GenAI powered solution for real-world challenges with strong development skills and user-focused design. Delivered a scalable prototype through collaboration under tight deadlines.',
-        linkedinUrl: '#'
+        linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_nomurakakushin9-swachhsagar-innovationunlocked-activity-7352588007767523328-kuh-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'
     },
     {
-        imageUrl: '/images/hackathons/devfest-winner.jpg',
+        imageUrl: '/awards/CodeCrafters.jpeg',
         title: 'CodeCrafters 2.0 Hackathon - 1st RunnersUp',
         organizer: 'Issued by Saraswati College of Engineering',
         date: 'March 2025',
@@ -29,7 +29,7 @@ const hackathonWins = [
         linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_hackathon-codinggurus-codecrafters2-activity-7307700505764327424-aNiU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'
     },
     {
-        imageUrl: '/images/hackathons/devfest-winner.jpg',
+        imageUrl: '/awards/W3.png',
         title: 'Rotacodefest Hackathon 2024 - 2nd RunersUp',
         organizer: 'Issued by Rotary Club Of Ghatkopar West',
         date: 'March 2024',
