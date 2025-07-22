@@ -74,7 +74,7 @@ export default function Projects() {
             My Projects
           </h2>
           <p className="mt-3 text-lg text-slate-600">
-            A selection of my work. See something you like?
+            A selection of my work. See something you like!
           </p>
           <div className="w-24 h-1 bg-violet-600 mx-auto mt-4 rounded-full"></div>
         </div>

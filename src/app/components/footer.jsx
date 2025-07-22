@@ -41,7 +41,7 @@ export default function Footer() {
               Shravani
             </h2>
             <p className="text-slate-600 max-w-xs">
-              A Web Developer & ML Enthusiast passionate about building modern, scalable web applications.
+              A Web Developer & AI/ML Enthusiast passionate about building modern, scalable web applications.
             </p>
           </div>
 

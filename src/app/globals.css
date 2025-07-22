@@ -4,6 +4,40 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes typewriter-one {
+  0% { width: 0ch; }
+  40% { width: 33ch; }
+  60% { width: 33ch; }
+  100% { width: 0ch; }
+}
+
+@keyframes typewriter-two {
+  0% { width: 0ch; }
+  40% { width: 20ch; }
+  60% { width: 20ch; }
+  100% { width: 0ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typewriter-desktop {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #a78bfa;
+  animation: typewriter-one 8s steps(40, end) infinite, blink 0.9s step-end infinite;
+}
+
+.typewriter-mobile {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #a78bfa;
+  animation: typewriter-two 7s steps(20, end) infinite, blink 0.8s step-end infinite;
+}
+
 
 /* :root {
   --background: #ffffff;
