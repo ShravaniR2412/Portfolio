@@ -51,7 +51,7 @@ export default function Hero() {
                     </h2>
 
                     <p className="text-lg text-slate-400 mb-10 max-w-xl mx-auto lg:mx-0">
-                        Crafting beautiful, functional web experiences and exploring the fascinating world of machine learning.
+                        SIH 2024 Winner | Full Stack Developer | VESIT INFT'26 | 4× Hackathon Winner | Passionate about AI/ML & Scalable Web Solutions 🚀
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
