@@ -26,7 +26,7 @@ export default function About() {
             <div>
               <h3 className="text-2xl font-semibold text-slate-800 mb-4">Who I Am</h3>
               <p className="m-1 text-slate-600 leading-relaxed text-justify">
-                I’m a passionate and results-driven <span className="font-semibold">Full Stack Developer</span> and <span className="font-semibold">Machine Learning enthusiast</span>, currently pursuing <span className="font-semibold">B.Tech in Information Technology at VESIT (INFT ’26)</span>. With a strong foundation in software development and a problem-solving mindset, I’ve earned recognition as a <span className="font-semibold">4x Hackathon Winner</span>, including the prestigious <span className="font-semibold">Smart India Hackathon (SIH) 2024</span>. I enjoy crafting <span className="font-semibold">intuitive web experiences</span>, exploring the potential of <span className="font-semibold">AI/ML</span>, and developing solutions that bridge innovation with impact.
+                I’m a passionate and results-driven <span className="font-semibold">Full Stack Developer</span> and <span className="font-semibold">Machine Learning enthusiast</span>, currently pursuing <span className="font-semibold">B.Tech in Information Technology at VESIT (INFT ’26)</span>. With a strong foundation in software development and a problem-solving mindset, I’ve earned recognition as a <span className="font-semibold">5x Hackathon Winner</span>, including the prestigious <span className="font-semibold">Smart India Hackathon (SIH) 2024</span>. I enjoy crafting <span className="font-semibold">intuitive web experiences</span>, exploring the potential of <span className="font-semibold">AI/ML</span>, and developing solutions that bridge innovation with impact.
               </p>
 
             </div>
@@ -44,7 +44,7 @@ export default function About() {
                   <ul className="space-y-4 text-slate-600">
                     {[
                       "🎓 B.E. IT at VESIT | CGPA: 9.62 (till Sem 6)",
-                      "🏆 SIH 2024 Winner | KakushIN 9.0 – 2nd Runners-Up",
+                      "🏆 SIH 2024 Winner | MumbaiHacks'25 Winner",
                       "🗣️ Strong public speaking & team collaboration skills",
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-center gap-3">
