@@ -9,8 +9,8 @@ const hackathonWins = [
         title: 'Smart India Hackathon (SIH) 2025 - WINNER',
         organizer: 'Issued by SRM IST',
         date: 'December 2025',
-        description: 'Secured the National Winner position at the Smart India Hackathon (Software Edition) 2025 by developing *GramLink*, an AI-powered platform focused on accelerating sustainable development in SC–ST majority villages through data-driven insights and digital governance solutions.',
-        linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_smartindiahackathon-innovation-ministryofhousingandurbanaffairs-activity-7273977337908518912-u-_a?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'
+        description: 'Secured the National Winner position at the Smart India Hackathon (Software Edition) 2025 by developing GramLink, an AI-powered platform focused on accelerating development in SC–ST majority villages through data-driven insights and digital governance solutions.',
+        linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_sih2025-smartindiahackathon-codinggurus-activity-7404406255827468288-Lg58?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'   
     },
      {
         imageUrl: '/awards/MumbaiHacks2025.jpeg',
