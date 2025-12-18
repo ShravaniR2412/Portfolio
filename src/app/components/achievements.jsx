@@ -7,7 +7,7 @@ const hackathonWins = [
      {
         imageUrl: '/awards/SIH2025.jpeg',
         title: 'Smart India Hackathon (SIH) 2025 - WINNER',
-        organizer: 'Issued by SRM IST',
+        organizer: 'AICTE | MoE – Ministry of Education, Government of India',
         date: 'December 2025',
         description: 'Secured the National Winner position at the Smart India Hackathon (Software Edition) 2025 by developing GramLink, an AI-powered platform focused on accelerating development in SC–ST majority villages through data-driven insights and digital governance solutions.',
         linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_sih2025-smartindiahackathon-codinggurus-activity-7404406255827468288-Lg58?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'   
@@ -23,7 +23,7 @@ const hackathonWins = [
     {
         imageUrl: '/awards/SIH.jpeg',
         title: 'Smart India Hackathon (SIH) 2024 - WINNER',
-        organizer: 'Issued by IIT Gandhinagar',
+        organizer: 'AICTE | MoE – Ministry of Education, Government of India',
         date: 'December 2024',
         description: 'Won the prestigious National level Smart India Hackathon Software Edition, competing against 300+ teams at IIT Gandhinagar.',
         linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_smartindiahackathon-innovation-ministryofhousingandurbanaffairs-activity-7273977337908518912-u-_a?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdPJAMBIAXibJ0ZIfY2ZzxURbx4KKtbX18'
