@@ -16,7 +16,7 @@ const hackathonWins = [
         imageUrl: '/awards/MumbaiHacks2025.jpeg',
         title: 'MumbaiHacks 2025 - Fintech Track Winner',
         organizer: 'Issued by Tech Entrepreneurs Association of Mumbai (TEAM) / Made in Mumbai',
-        date: 'December 2025',
+        date: 'November 2025',
         description: 'Won in the Fintech track at MumbaiHacks 2025 —  out of 3,500+ participants. Built a working mobile + web app during the hackathon powered with Agentic-AI features for personal finance management.',
         linkedinUrl: 'https://www.linkedin.com/posts/shravanirasam02_mumbaihacks-fintech-winners-activity-7400959750026330112-XoIf'
     },
