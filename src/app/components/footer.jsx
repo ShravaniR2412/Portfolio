@@ -1,8 +1,9 @@
 'use client';
 
 import { Github, Linkedin, Twitter, Mail, ArrowUpRight } from 'lucide-react';
+import Image from 'next/image'; // Import Next.js Image component
 
-// --- SOCIAL & CONTACT LINKS (Customize these) ---
+// --- SOCIAL & CONTACT LINKS ---
 const socialLinks = [
   {
     icon: <Github size={20} />,
@@ -14,11 +15,6 @@ const socialLinks = [
     href: 'https://www.linkedin.com/in/shravanirasam02',
     label: 'LinkedIn',
   },
-  // {
-  //   icon: <Twitter size={20} />,
-  //   href: 'https://twitter.com/your-username',
-  //   label: 'Twitter',
-  // },
 ];
 
 const quickLinks = [
@@ -28,17 +24,16 @@ const quickLinks = [
     { href: '#contact', label: 'Contact' },
 ];
 
-
 export default function Footer() {
   return (
     <footer id="footer" className="bg-slate-50 text-slate-700 border-t border-slate-200">
-      <div className="max-w-7xl mx-auto px-5 py-5">
+      <div className="max-w-7xl mx-auto px-5 py-12"> {/* Increased padding for better spacing */}
         <div className="grid md:grid-cols-12 gap-8">
 
           {/* Footer branding */}
           <div className="md:col-span-12 lg:col-span-4">
             <h2 className="text-2xl font-bold text-slate-800 mb-2">
-              Shravani
+              Shravani Shankar Rasam
             </h2>
             <p className="text-slate-600 max-w-xs">
               A Web Developer & AI/ML Enthusiast passionate about building modern, scalable web applications.
@@ -78,22 +73,38 @@ export default function Footer() {
             </div>
           </div>
           
-          {/* Contact CTA */}
+          {/* Contact & QR Code */}
           <div className="md:col-span-4 lg:col-span-3">
              <h3 className="text-slate-800 font-semibold mb-4">Get in Touch</h3>
              <a 
                 href="mailto:shravanirasam0212@gmail.com"
-                className="group inline-flex items-center text-violet-600 font-medium hover:text-violet-800 transition-colors duration-300"
+                className="group inline-flex items-center text-violet-600 font-medium hover:text-violet-800 transition-colors duration-300 mb-6"
               >
                 <span>shravanirasam0212@gmail.com</span>
                 <ArrowUpRight size={18} className="ml-1.5 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
               </a>
+
+              {/* QR Code Section */}
+              <div className="mt-2">
+                <p className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">
+                  Scan to Connect
+                </p>
+                <div className="bg-white p-2 inline-block rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow duration-300">
+                  <Image 
+                    src="/LinkTree-QR.jpg" 
+                    alt="LinkTree QR Code" 
+                    width={100} 
+                    height={100} 
+                    className="rounded-lg"
+                  />
+                </div>
+              </div>
           </div>
 
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-slate-200 mt-5 pt-8 text-center text-sm text-slate-500">
+        <div className="border-t border-slate-200 mt-12 pt-8 text-center text-sm text-slate-500">
           <p>© {new Date().getFullYear()} Shravani. All Rights Reserved.</p>
         </div>
       </div>
